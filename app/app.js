@@ -6,8 +6,11 @@ var memoryGameApp = angular.module('memoryGameApp', []);
 
 
 memoryGameApp.factory('game', function() {
-  var tileNames = ['8-ball', 'kronos', 'baked-potato', 'dinosaur', 'rocket', 'skinny-unicorn',
+  var tileNames2 = ['8-ball', 'kronos', 'baked-potato', 'dinosaur', 'rocket', 'skinny-unicorn',
     'that-guy', 'zeppelin'];
+
+  var tileNames = ['memo1', 'memo2', 'memo3', 'memo4', 'memo5', 'memo6',
+    'memo7', 'memo8'];
 
   return new Game(tileNames);
 });
